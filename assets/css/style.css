@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sel{
+    display: flex;
+    width: 530px;
+    margin: 20px auto;
+}
+
+#selekt{ 
+    flex-grow: 1;
+    margin-right: 5px;
+    border: 2px solid black; 
+    height: 25px;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+}
+
+#unosDugme{
+    height: 25px;
+    border: 2px solid black;
+}
+
+#opis{
+    height: 19px;
+    border: 2px solid black;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+}
+
+#iznos{
+    height: 19px;
+    border: 2px solid black;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+}
+
+#inp{ 
+    flex-grow: 1;
+}
+
+#ukupno{
+    text-align:center;
+}
+
+#ukupno p{
+    font-size: 20px;
+    margin: 5px;
+}
+
+#stanjeUkupno{
+    color: green;
+    font-size: 20px;
+    border: solid 4px black;
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#prihodiUkupno{
+    color: green;
+    font-size: 20px;
+    border: solid 2px black;
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#rashodiUkupno{
+    color: red;
+    font-size: 20px;
+    border: solid 2px black;
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#lista{
+    display: flex;
+    margin: 0 auto;
+    width: 600px
+}
+
+#rashodiLista{
+    color: red;
+    flex-grow: 1;
+    text-align:center;
+    font-size: 20px;
+         
+}
+
+#prihodiLista{
+    color: green;
+	flex-grow: 1;
+    text-align:center;
+    font-size: 20px;
+
+}
+
+.list1cont{
+    display: flex;
+}
+
+.list2cont {display: flex;}
+
+.obrisi1 {display: none;}
+
+.list1cont:hover .obrisi1{
+    display: inline;
+}
+
+.obrisi2{
+    display: none
+}
+
+.list2cont:hover .obrisi2{
+    display: inline;
+}
